@@ -10,8 +10,8 @@ function App() {
         <div className="InputBox">
           <input type="text" placeholder="Digite seu CEP..." />
 
-          <button type="button" placeholder="buttonSearch">
-              <FiSearch size={25} color="#fff" />
+          <button type="button" className="buttonSearch">
+              <FiSearch size={25} color="grey"/>
           </button>
         </div>
         
