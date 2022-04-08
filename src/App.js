@@ -1,3 +1,4 @@
+import api from './services/api';
 import { useState } from 'react';
 import { FiSearch } from "react-icons/fi";
 import './estilos/style.css';
@@ -6,8 +7,19 @@ function App() {
 
   const [input, setInput] = useState('')
 
-  function handleSearch() {
-    alert("Click funcionando!")
+  async function handleSearch() {
+    // alert("Click funcionando! valor do input : " + input);
+    
+    if(input === '') {
+      alert("Preencha o CEP no campo!");
+    }
+
+    try {
+      const resposta = await api.get(`${input}/json`);
+      console.log(resposta);
+    } catch {
+      alert("CEP não existe");
+    }
   }
 
 
