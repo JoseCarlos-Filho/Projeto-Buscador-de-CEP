@@ -5,7 +5,8 @@ import './estilos/style.css';
 
 function App() {
 
-  const [input, setInput] = useState('')
+  const [input, setInput] = useState('');
+  const [cep, setCep] = useState({});
 
   async function handleSearch() {
     // alert("Click funcionando! valor do input : " + input);
@@ -16,9 +17,12 @@ function App() {
 
     try {
       const resposta = await api.get(`${input}/json`);
-      console.log(resposta);
+      setCep(resposta.data);
+      setInput("");
+      // console.log(resposta.data);
     } catch {
       alert("CEP não existe");
+      setInput("");
     }
   }
 
@@ -42,12 +46,12 @@ function App() {
         
 
         <main className="main">
-            <h2>CEP: 000.00-000</h2>
+            <h2>CEP: {cep.cep}</h2>
 
-            <span>Rua: Teste</span>
-            <span>Logradouro: Teste</span>
-            <span>Bairro: Teste</span>
-            <span>Cidade: Teste</span>
+            <span>{cep.logradouro}</span>
+            <span>Complemento: {cep.complemento}</span>
+            <span>{cep.bairro}</span>
+            <span>{cep.localidade} - {cep.uf}</span>
         </main>
         </div>
     </div>
