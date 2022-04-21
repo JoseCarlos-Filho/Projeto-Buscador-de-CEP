@@ -1,8 +1,52 @@
-# Getting Started with Create React App
+# Projeto Buscador de CEP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Layout](/public/Layout%20Buscador%20de%20Cep.png)
 
-## Available Scripts
+## Conteúdo
+
+- [Deploy](#Deploy)
+- [Resumo](#Resumo)
+- [Descrição](#Descrição)
+- [O que aprendeu](#O-que-aprendeu)
+- [Construido com](#Construido-com)
+- [Autor](#Autor)
+- [Como utilizar](#Como-utilizar)
+
+## Deploy
+
+- deploy: [Aplicativo Buscador de CEP]()
+
+## Resumo
+
+Aplicação que busca o endereço dado a informação do CEP.
+
+## Descrição
+
+Aplicação desenvolvida para a busca de endereço fornecendo o dados de entrada CEP,
+esta aplicação foi desenvolvida utilizando a biblioteca JavaScript React, HTML, CSS 
+e o consumo da API ViaCEP.
+
+## O que aprendeu
+
+Utilização da bilblioteca JavaScript React, componentes, refatoração de código, organização de código mais limpa e ágil.
+além de aprender sobre a DOM Virtual tornando o processamento da aplicação de forma instantanea.
+
+Utilização de API, fazendo o acesso de informações da API e o tratamento das informações.
+
+## Construido com
+
+React
+HTML5
+CSS
+JavaScript
+
+## Autor
+
+- Copyright (c): [José Carlos Rodrigues Filho]()
+
+## Como utilizar
+
+Available Scripts
 
 In the project directory, you can run:
 
@@ -39,32 +83,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
