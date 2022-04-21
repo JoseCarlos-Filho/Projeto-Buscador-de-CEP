@@ -1,13 +1,22 @@
+// import da api de CEP
 import api from './services/api';
+
+// Import do uso de estados do React 
 import { useState } from 'react';
+
+// import do componente de busca de icones no react
 import { FiSearch } from "react-icons/fi";
+
+// import da folha de estilos
 import './estilos/style.css';
 
 function App() {
 
+  // Declaração e trabalho da manipulação dos estados em React
   const [input, setInput] = useState('');
   const [cep, setCep] = useState({});
 
+  // função assincrona que busca informação da API do Cep no formato Json
   async function handleSearch() {
     // alert("Click funcionando! valor do input : " + input);
     
