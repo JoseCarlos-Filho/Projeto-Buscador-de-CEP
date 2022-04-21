@@ -14,7 +14,7 @@
 
 ## Deploy
 
-- deploy: [Aplicativo Buscador de CEP]()
+- deploy: [Aplicativo Buscador de CEP](https://jose-carlos-filho-buscador-cep.netlify.app/)
 
 ## Resumo
 
@@ -42,7 +42,7 @@ JavaScript
 
 ## Autor
 
-- Copyright (c): [José Carlos Rodrigues Filho]()
+- Copyright (c): [José Carlos Rodrigues Filho](https://github.com/JoseCarlos-Filho/Projeto-Buscador-de-CEP)
 
 ## Como utilizar
 
