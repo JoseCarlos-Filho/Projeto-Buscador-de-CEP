@@ -44,15 +44,20 @@ function App() {
           </button>
         </div>
         
+        {/* reinderização condicional para apresentação do quadro branco na aplicação */}
+        {Object.keys(cep).length > 0 && (
 
-        <main className="main">
-            <h2>CEP: {cep.cep}</h2>
+            <main className="main">
+                <h2>CEP: {cep.cep}</h2>
 
-            <span>{cep.logradouro}</span>
-            <span>Complemento: {cep.complemento}</span>
-            <span>{cep.bairro}</span>
-            <span>{cep.localidade} - {cep.uf}</span>
-        </main>
+                <span>{cep.logradouro}</span>
+                <span>Complemento: {cep.complemento}</span>
+                <span>{cep.bairro}</span>
+                <span>{cep.localidade} - {cep.uf}</span>
+            </main>
+
+        )}
+        
         </div>
     </div>
   );
